@@ -1,4 +1,4 @@
 // backend/adapters/alienPC.js
-export const fetchAlienPCCompute = async (payload) => {
-  return { status: 'ready', load: 15 };
+export const runAlienCompute = async (prompt, mode) => {
+  return { metrics: { computeTime: 1200, stability: 0.87 } };
 };

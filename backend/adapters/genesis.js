@@ -1,4 +1,4 @@
 // backend/adapters/genesis.js
-export const fetchGenesisData = async (query) => {
-  return { sequences: ['ATGC...'], alignmentScore: 0.94 };
+export const fetchGenesisSequences = async (mode) => {
+  return { helixData: ['ATGC...'], alignment: ['...'] };
 };
